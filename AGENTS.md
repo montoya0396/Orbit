@@ -15,7 +15,7 @@ Household-first coordination app for day-to-day to-dos and recurring monthly obl
 
 ## Schema
 
-Edit `lib/db/schema.ts`, run `npm run db:generate`, and commit the migration. Migrate production only when the user explicitly asks.
+Edit `lib/db/schema.ts`, run `npm run db:generate`, and commit the migration. In the same change, update `docs/data-model.md` so the map, columns, constraints, and delete behaviour match the schema. Migrate production only when the user explicitly asks.
 
 ## Tests
 
